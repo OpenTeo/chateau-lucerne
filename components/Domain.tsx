@@ -8,7 +8,12 @@ export default function Domain() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="h-64 md:h-96 rounded-lg bg-gradient-to-br from-stone-200 to-stone-300" />
+            <div 
+              className="h-64 md:h-96 rounded-lg bg-cover bg-center"
+              style={{
+                backgroundImage: "url('https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=2940')"
+              }}
+            />
             <div className="flex flex-col justify-center">
               <h3 className="font-serif text-3xl mb-4 text-stone-900">
                 Un Patrimoine Préservé
@@ -43,7 +48,12 @@ export default function Domain() {
                 préservé, idéal pour se ressourcer.
               </p>
             </div>
-            <div className="h-64 md:h-96 rounded-lg order-1 md:order-2 bg-gradient-to-br from-green-100 to-green-200" />
+            <div 
+              className="h-64 md:h-96 rounded-lg order-1 md:order-2 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2940')"
+              }}
+            />
           </div>
         </div>
       </div>
