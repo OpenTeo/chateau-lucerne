@@ -50,7 +50,7 @@ export default function Rooms() {
                 className="h-48 bg-gradient-to-br from-stone-300 to-stone-400 group-hover:scale-105 transition-transform duration-300"
                 style={{
                   backgroundImage:
-                    "url('https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2940')",
+                    "url('https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2940')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}

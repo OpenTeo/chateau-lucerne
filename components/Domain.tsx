@@ -12,7 +12,7 @@ export default function Domain() {
               className="h-64 md:h-96 rounded-lg"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2940')",
+                  "url('https://images.unsplash.com/photo-1583086852827-16838942a3c7?q=80&w=2940')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -55,7 +55,7 @@ export default function Domain() {
               className="h-64 md:h-96 rounded-lg order-1 md:order-2"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1621785860904-4f7b8b5c8b0c?q=80&w=2940')",
+                  "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2940')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
