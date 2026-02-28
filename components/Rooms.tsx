@@ -5,30 +5,35 @@ export default function Rooms() {
       description: "Chambre élégante avec vue dégagée",
       features: ["Lit double", "Salle de bain privée", "Vue parc"],
       price: "170€",
+      image: "/images/chambres/prune.jpg",
     },
     {
       name: "Iris",
       description: "Confort et raffinement",
       features: ["Lit queen-size", "Salle de bain privée", "Décoration soignée"],
       price: "180€",
+      image: "/images/chambres/iris.jpg",
     },
     {
       name: "Azure",
       description: "Atmosphère apaisante",
       features: ["Lit double", "Salle de bain privée", "Ambiance zen"],
       price: "180€",
+      image: "/images/chambres/azure.jpg",
     },
     {
       name: "Joséphine",
       description: "La suite prestige du domaine",
       features: ["Lit queen-size", "Grande salle de bain", "Espace salon"],
       price: "210€",
+      image: "/images/chambres/prune.jpg",
     },
     {
       name: "Chambre Familiale",
       description: "Espace généreux pour familles",
       features: ["Lits multiples", "Salle de bain privée", "Grand espace"],
       price: "190€",
+      image: "/images/chambres/iris.jpg",
     },
   ];
 
@@ -53,7 +58,7 @@ export default function Rooms() {
               <div 
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('/images/chambre.jpg')"
+                  backgroundImage: `url('${room.image}')`
                 }}
               />
               
