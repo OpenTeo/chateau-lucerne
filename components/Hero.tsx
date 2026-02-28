@@ -2,8 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-screen flex items-center justify-center text-white"
-      className="bg-gradient-to-br from-stone-800 via-stone-700 to-stone-900"
+      className="relative h-screen flex items-center justify-center text-white bg-gradient-to-br from-stone-800 via-stone-700 to-stone-900"
     >
       <div className="container mx-auto px-4 text-center animate-fade-in">
         <h1 className="font-serif text-5xl md:text-7xl mb-6 text-balance">
