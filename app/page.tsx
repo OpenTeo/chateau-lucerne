@@ -13,9 +13,9 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <Rooms />
       <Events />
       <Domain />
+      <Rooms />
       <Contact />
       <Footer />
     </main>
