@@ -53,7 +53,7 @@ export default function Rooms() {
               <div 
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=2940')"
+                  backgroundImage: "url('/images/chambre.jpg')"
                 }}
               />
               

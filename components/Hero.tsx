@@ -5,7 +5,7 @@ export default function Hero() {
       className="relative h-screen flex items-center justify-center text-white"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1612768315323-4dc6b75f0c00?q=80&w=2940')",
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/facade.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",

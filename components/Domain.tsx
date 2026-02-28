@@ -11,7 +11,7 @@ export default function Domain() {
             <div 
               className="h-64 md:h-96 rounded-lg bg-cover bg-center"
               style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=2940')"
+                backgroundImage: "url('/images/facade.jpg')"
               }}
             />
             <div className="flex flex-col justify-center">
@@ -51,7 +51,7 @@ export default function Domain() {
             <div 
               className="h-64 md:h-96 rounded-lg order-1 md:order-2 bg-cover bg-center"
               style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2940')"
+                backgroundImage: "url('/images/parc.jpg')"
               }}
             />
           </div>
