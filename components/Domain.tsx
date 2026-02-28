@@ -8,15 +8,12 @@ export default function Domain() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div
-              className="h-64 md:h-96 rounded-lg"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1583086852827-16838942a3c7?q=80&w=2940')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            />
+            <div className="h-64 md:h-96 rounded-lg bg-gradient-to-br from-stone-200 to-stone-300 flex items-center justify-center">
+              <div className="text-center">
+                <p className="text-6xl mb-4">🏰</p>
+                <p className="text-stone-600 italic">Photo du château à venir</p>
+              </div>
+            </div>
             <div className="flex flex-col justify-center">
               <h3 className="font-serif text-3xl mb-4 text-stone-900">
                 Un Patrimoine Préservé
@@ -35,7 +32,7 @@ export default function Domain() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="flex flex-col justify-center order-2 md:order-1">
+            <div className="flex flex-col justify-center order-2 md:order-1 bg-white p-6 rounded-lg">
               <h3 className="font-serif text-3xl mb-4 text-stone-900">
                 Le Parc & Les Jardins
               </h3>
@@ -51,15 +48,12 @@ export default function Domain() {
                 préservé, idéal pour se ressourcer.
               </p>
             </div>
-            <div
-              className="h-64 md:h-96 rounded-lg order-1 md:order-2"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2940')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            />
+            <div className="h-64 md:h-96 rounded-lg order-1 md:order-2 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center">
+              <div className="text-center">
+                <p className="text-6xl mb-4">🌳</p>
+                <p className="text-green-800 italic">Photo du parc à venir</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

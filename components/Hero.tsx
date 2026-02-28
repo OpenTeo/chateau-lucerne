@@ -3,13 +3,7 @@ export default function Hero() {
     <section
       id="hero"
       className="relative h-screen flex items-center justify-center text-white"
-      style={{
-        backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=2940')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
+      className="bg-gradient-to-br from-stone-800 via-stone-700 to-stone-900"
     >
       <div className="container mx-auto px-4 text-center animate-fade-in">
         <h1 className="font-serif text-5xl md:text-7xl mb-6 text-balance">

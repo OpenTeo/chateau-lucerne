@@ -46,15 +46,9 @@ export default function Rooms() {
               key={index}
               className="bg-stone-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow group"
             >
-              <div
-                className="h-48 bg-gradient-to-br from-stone-300 to-stone-400 group-hover:scale-105 transition-transform duration-300"
-                style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=2940')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              />
+              <div className="h-48 bg-gradient-to-br from-stone-300 to-stone-400 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+                <span className="text-4xl">🏰</span>
+              </div>
               <div className="p-6">
                 <h3 className="font-serif text-2xl mb-2 text-stone-900">
                   {room.name}
