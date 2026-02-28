@@ -1,34 +1,34 @@
 export default function Rooms() {
   const rooms = [
     {
-      name: "Suite Napoléon",
-      description: "Suite prestige avec vue sur le parc",
-      features: ["Lit king-size", "Salle de bain privée", "35m²"],
+      name: "Prune",
+      description: "Chambre élégante avec vue dégagée",
+      features: ["Lit double", "Salle de bain privée", "Vue parc"],
+      price: "170€",
+    },
+    {
+      name: "Iris",
+      description: "Confort et raffinement",
+      features: ["Lit queen-size", "Salle de bain privée", "Décoration soignée"],
       price: "180€",
     },
     {
-      name: "Chambre Carbonnel",
-      description: "Élégance et authenticité",
-      features: ["Lit queen-size", "Salle de bain privée", "28m²"],
-      price: "150€",
+      name: "Azure",
+      description: "Atmosphère apaisante",
+      features: ["Lit double", "Salle de bain privée", "Ambiance zen"],
+      price: "180€",
     },
     {
-      name: "Chambre de la Forêt",
-      description: "Atmosphère paisible",
-      features: ["Lit double", "Salle de bain privée", "25m²"],
-      price: "140€",
+      name: "Joséphine",
+      description: "La suite prestige du domaine",
+      features: ["Lit queen-size", "Grande salle de bain", "Espace salon"],
+      price: "210€",
     },
     {
-      name: "Chambre de l'Abbaye",
-      description: "Charme historique",
-      features: ["Lit double", "Salle de bain privée", "25m²"],
-      price: "140€",
-    },
-    {
-      name: "Chambre des Jardins",
-      description: "Vue sur les jardins",
-      features: ["Lit double", "Salle de bain privée", "25m²"],
-      price: "140€",
+      name: "Chambre Familiale",
+      description: "Espace généreux pour familles",
+      features: ["Lits multiples", "Salle de bain privée", "Grand espace"],
+      price: "190€",
     },
   ];
 
