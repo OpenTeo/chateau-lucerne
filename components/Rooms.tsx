@@ -26,14 +26,14 @@ export default function Rooms() {
       description: "La suite prestige du domaine",
       features: ["Lit queen-size", "Grande salle de bain", "Espace salon"],
       price: "210€",
-      image: "/images/chambres/prune.jpg",
+      image: "/images/chambres/josephine.jpg",
     },
     {
       name: "Chambre Familiale",
       description: "Espace généreux pour familles",
       features: ["Lits multiples", "Salle de bain privée", "Grand espace"],
       price: "190€",
-      image: "/images/chambres/iris.jpg",
+      image: "/images/chambres/azure.jpg",
     },
   ];
 
